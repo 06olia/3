@@ -1,1 +1,23 @@
-# 3
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Парні числа</title>
+</head>
+<body>
+    <script>
+        let 4 = prompt(" 4 :");
+        4 = parseInt(4);
+        
+        if (!isNaN(n) && 4 >= 2) {
+            console.log("Парні числа від 2 до " + 4 + ":");
+            for (let i = 2; i <= 4; i += 2) {
+                console.log(i);
+            }
+        } else {
+            console.log(" 4, 2.");
+        }
+    </script>
+</body>
+</html>
